@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Navigations-Aufgabe</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <br>
+
+        <div id="1">
+            <label id="1Frage">1 Welche Treibstoffmenge (ohne Reserve) benötigten Sie für den gesamten Streckenflug,
+                wenn Sie für Wartezeit, Rollen und Standlauf je Start mit 10 Minuten rechnen?</label>
+            <div class="form-check" id="1a">
+                <input class="form-check-input" type="radio" name="gruppe1" id="1aRadio">
+                <label class="form-check-label" for="1aRadio" id="1aText">
+                    24 - 25 ltr.
+                </label>
+            </div>
+            <div class="form-check" id="1b">
+                <input class="form-check-input" type="radio" name="gruppe1" id="1bRadio">
+                <label class="form-check-label" for="1bRadio" id="1bText">
+                    19 - 20 ltr.
+                </label>
+            </div>
+            <div class="form-check" id="1c">
+                <input class="form-check-input" type="radio" name="gruppe1" id="1cRadio">
+                <label class="form-check-label" for="1cRadio" id="1cText">
+                    33 ltr.
+                </label>
+            </div>
+            <div class="form-check" id="1d">
+                <input class="form-check-input" type="radio" name="gruppe1" id="1dRadio">
+                <label class="form-check-label" for="1dRadio" id="1dText">
+                    17,55 ltr.
+                </label>
+            </div>
+        </div>
+
+        <div id="2">
+            <label id="2Frage">2 Vor Ihrem Flug möchten Sie zusätzlich zum GAFOR-Bericht eine individuelle
+                Wetterberatung einholen. Welche Telefonnummer müssen Sie wählen?</label>
+            <div class="form-check" id="2a">
+                <input class="form-check-input" type="radio" name="gruppe2" id="2aRadio">
+                <label class="form-check-label" for="2aRadio" id="2aText">
+                    0900-1077221
+                </label>
+            </div>
+            <div class="form-check" id="2b">
+                <input class="form-check-input" type="radio" name="gruppe2" id="2bRadio">
+                <label class="form-check-label" for="2bRadio" id="2bText">
+                    0190-162636
+                </label>
+            </div>
+            <div class="form-check" id="2c">
+                <input class="form-check-input" type="radio" name="gruppe2" id="2cRadio">
+                <label class="form-check-label" for="2cRadio" id="2cText">
+                    05271-7986
+                </label>
+            </div>
+            <div class="form-check" id="2d">
+                <input class="form-check-input" type="radio" name="gruppe2" id="2dRadio">
+                <label class="form-check-label" for="2dRadio" id="2dText">
+                    02203 -402247
+                </label>
+            </div>
+        </div>
+
+        <div id="3">
+            <label id="3Frage">3 Die gegebenen Sichtweiten entsprechen den im GAFOR-Bericht vorhergesagten Werten.
+                Dürfen Sie in den Luftraum E einfliegen?</label>
+            <div class="form-check" id="3a">
+                <input class="form-check-input" type="radio" name="gruppe3" id="3aRadio">
+                <label class="form-check-label" for="3aRadio" id="3aText">
+                    Ja, ab 11.00 Uhr UTC
+                </label>
+            </div>
+            <div class="form-check" id="3b">
+                <input class="form-check-input" type="radio" name="gruppe3" id="3bRadio">
+                <label class="form-check-label" for="3bRadio" id="3bText">
+                    Ja, ab SR-30
+                </label>
+            </div>
+            <div class="form-check" id="3c">
+                <input class="form-check-input" type="radio" name="gruppe3" id="3cRadio">
+                <label class="form-check-label" for="3cRadio" id="3cText">
+                    Nur nach vorheriger Erlaubnis
+                </label>
+            </div>
+            <div class="form-check" id="3d">
+                <input class="form-check-input" type="radio" name="gruppe3" id="3dRadio">
+                <label class="form-check-label" for="3dRadio" id="3dText">
+                    Nur mit GPS an Bord
+                </label>
+            </div>
+        </div>
+
+        <div id="4">
+            <label id="4Frage">4 Das TH auf dem Streckenabschnitt von Höxter-Holzminden nach Porta-Westfalica
+                beträgt:</label>
+            <div class="form-check" id="4a">
+                <input class="form-check-input" type="radio" name="gruppe4" id="4aRadio">
+                <label class="form-check-label" for="4aRadio" id="4aText">
+                    309°
+                </label>
+            </div>
+            <div class="form-check" id="4b">
+                <input class="form-check-input" type="radio" name="gruppe4" id="4bRadio">
+                <label class="form-check-label" for="4bRadio" id="4bText">
+                    340°
+                </label>
+            </div>
+            <div class="form-check" id="4c">
+                <input class="form-check-input" type="radio" name="gruppe4" id="4cRadio">
+                <label class="form-check-label" for="4cRadio" id="4cText">
+                    320°
+                </label>
+            </div>
+            <div class="form-check" id="4d">
+                <input class="form-check-input" type="radio" name="gruppe4" id="4dRadio">
+                <label class="form-check-label" for="4dRadio" id="4dText">
+                    295°
+                </label>
+            </div>
+        </div>
+
+        <div id="5">
+            <label id="5Frage">5 Sie befinden sich auf dem Streckenabschnitt von Höxter-Holzminden nach
+                Porta-Westfalica, Position kurz vor Langenholzhausen. Welches markante Merkmal bietet sich als
+                Orientierungshilfe an, um einen Einflug in den Luftraum D CTR von Bückeburg zu vermeiden?</label>
+            <div class="form-check" id="5a">
+                <input class="form-check-input" type="radio" name="gruppe5" id="5aRadio">
+                <label class="form-check-label" for="5aRadio" id="5aText">
+                    Hindernisgruppe (befeuert) nahe der Weser
+                </label>
+            </div>
+            <div class="form-check" id="5b">
+                <input class="form-check-input" type="radio" name="gruppe5" id="5bRadio">
+                <label class="form-check-label" for="5bRadio" id="5bText">
+                    Wesergebirge
+                </label>
+            </div>
+            <div class="form-check" id="5c">
+                <input class="form-check-input" type="radio" name="gruppe5" id="5cRadio">
+                <label class="form-check-label" for="5cRadio" id="5cText">
+                    Hängegleitergelände
+                </label>
+            </div>
+            <div class="form-check" id="5d">
+                <input class="form-check-input" type="radio" name="gruppe5" id="5dRadio">
+                <label class="form-check-label" for="5dRadio" id="5dText">
+                    Hubschrauberlandeplatz für Krankentransporte
+                </label>
+            </div>
+        </div>
+
+        <div id="6">
+            <label id="6Frage">6 Welche Piste ist in Porta-Westfalica wahrscheinlich in Betrieb?</label>
+            <div class="form-check" id="6a">
+                <input class="form-check-input" type="radio" name="gruppe6" id="6aRadio">
+                <label class="form-check-label" for="6aRadio" id="6aText">
+                    23
+                </label>
+            </div>
+            <div class="form-check" id="6b">
+                <input class="form-check-input" type="radio" name="gruppe6" id="6bRadio">
+                <label class="form-check-label" for="6bRadio" id="6bText">
+                    14
+                </label>
+            </div>
+            <div class="form-check" id="6c">
+                <input class="form-check-input" type="radio" name="gruppe6" id="6cRadio">
+                <label class="form-check-label" for="6cRadio" id="6cText">
+                    5
+                </label>
+            </div>
+            <div class="form-check" id="6d">
+                <input class="form-check-input" type="radio" name="gruppe6" id="6dRadio">
+                <label class="form-check-label" for="6dRadio" id="6dText">
+                    32
+                </label>
+            </div>
+        </div>
+
+        <div id="7">
+            <label id="7Frage">7 Worauf müssen Sie beim Anflug auf den Verkehrslandeplatz Porta-Westfalica
+                achten?</label>
+            <div class="form-check" id="7a">
+                <input class="form-check-input" type="radio" name="gruppe7" id="7aRadio">
+                <label class="form-check-label" for="7aRadio" id="7aText">
+                    Anflüge sind aus SE durchzuführen
+                </label>
+            </div>
+            <div class="form-check" id="7b">
+                <input class="form-check-input" type="radio" name="gruppe7" id="7bRadio">
+                <label class="form-check-label" for="7bRadio" id="7bText">
+                    Keine Landung zulässig, wenn die gelben Warnblinkleuchten neben der Piste in Betrieb sind
+                </label>
+            </div>
+            <div class="form-check" id="7c">
+                <input class="form-check-input" type="radio" name="gruppe7" id="7cRadio">
+                <label class="form-check-label" for="7cRadio" id="7cText">
+                    Ihr Queranflug liegt südwestlich der Weser
+                </label>
+            </div>
+            <div class="form-check" id="7d">
+                <input class="form-check-input" type="radio" name="gruppe7" id="7dRadio">
+                <label class="form-check-label" for="7dRadio" id="7dText">
+                    Die Platzrundenhöhe von 1050 ft MSL bezieht sich ausschließlich auf den Gegenanflug
+                </label>
+            </div>
+        </div>
+
+        <div id="8">
+            <label id="8Frage">8 Was dient Ihnen auf der zweiten Hälfte des Fluges nach Melle-Grönegau als
+                Leitlinie?</label>
+            <div class="form-check" id="8a">
+                <input class="form-check-input" type="radio" name="gruppe8" id="8aRadio">
+                <label class="form-check-label" for="8aRadio" id="8aText">
+                    Autobahn in Verbindung mit mehrgleisiger Eisenbahnlinie
+                </label>
+            </div>
+            <div class="form-check" id="8b">
+                <input class="form-check-input" type="radio" name="gruppe8" id="8bRadio">
+                <label class="form-check-label" for="8bRadio" id="8bText">
+                    Brückenkombination westlich Bünde
+                </label>
+            </div>
+            <div class="form-check" id="8c">
+                <input class="form-check-input" type="radio" name="gruppe8" id="8cRadio">
+                <label class="form-check-label" for="8cRadio" id="8cText">
+                    Bundesstraße Lübbecke - Herford
+                </label>
+            </div>
+            <div class="form-check" id="8d">
+                <input class="form-check-input" type="radio" name="gruppe8" id="8dRadio">
+                <label class="form-check-label" for="8dRadio" id="8dText">
+                    Mittellandkanal
+                </label>
+            </div>
+        </div>
+
+        <div id="9">
+            <label id="9Frage">9 MH und GS auf dem Streckenabschnitt von Porta-Westfalica nach Melle-Grönegau
+                betragen:</label>
+            <div class="form-check" id="9a">
+                <input class="form-check-input" type="radio" name="gruppe9" id="9aRadio">
+                <label class="form-check-label" for="9aRadio" id="9aText">
+                    265° / 76km/h
+                </label>
+            </div>
+            <div class="form-check" id="9b">
+                <input class="form-check-input" type="radio" name="gruppe9" id="9bRadio">
+                <label class="form-check-label" for="9bRadio" id="9bText">
+                    252° / 70 km/h
+                </label>
+            </div>
+            <div class="form-check" id="9c">
+                <input class="form-check-input" type="radio" name="gruppe9" id="9cRadio">
+                <label class="form-check-label" for="9cRadio" id="9cText">
+                    267° / 87 km/h
+                </label>
+            </div>
+            <div class="form-check" id="9d">
+                <input class="form-check-input" type="radio" name="gruppe9" id="9dRadio">
+                <label class="form-check-label" for="9dRadio" id="9dText">
+                    260° / 96km/h
+                </label>
+            </div>
+        </div>
+
+        <div id="10">
+            <label id="10Frage">10 Kann man aus der ICAO-Karte 1:500 000 die Platzrundenausrichtung und -höhe von
+                Porta-Westfalica entnehmen?</label>
+            <div class="form-check" id="10a">
+                <input class="form-check-input" type="radio" name="gruppe10" id="10aRadio">
+                <label class="form-check-label" for="10aRadio" id="10aText">
+                    Ja, die Platzrunde befindet sich südöstlich in einer Höhe von 1050 ft
+                </label>
+            </div>
+            <div class="form-check" id="10b">
+                <input class="form-check-input" type="radio" name="gruppe10" id="10bRadio">
+                <label class="form-check-label" for="10bRadio" id="10bText">
+                    Nein
+                </label>
+            </div>
+            <div class="form-check" id="10c">
+                <input class="form-check-input" type="radio" name="gruppe10" id="10cRadio">
+                <label class="form-check-label" for="10cRadio" id="10cText">
+                    Nur die Platzrundenhöhe von 710 m ist erkennbar
+                </label>
+            </div>
+            <div class="form-check" id="10d">
+                <input class="form-check-input" type="radio" name="gruppe10" id="10dRadio">
+                <label class="form-check-label" for="10dRadio" id="10dText">
+                    Ja, die Platzrunde befindet sich im Norden des Platzes in einer Höhe von 1224 ft AGL
+                </label>
+            </div>
+        </div>
+
+        <div id="11">
+            <label id="11Frage">11 Für den Flug von Melle-Grönegau nach Bielefeld haben Sie im Rahmen Ihrer
+                Flugvorbereitung eine Auffanglinie festgelegt. Sie haben gewählt:</label>
+            <div class="form-check" id="11a">
+                <input class="form-check-input" type="radio" name="gruppe11" id="11aRadio">
+                <label class="form-check-label" for="11aRadio" id="11aText">
+                    Die SW - NE verlaufende Autobahn südöstlich des Flugplatzes Bielefeld
+                </label>
+            </div>
+            <div class="form-check" id="11b">
+                <input class="form-check-input" type="radio" name="gruppe11" id="11bRadio">
+                <label class="form-check-label" for="11bRadio" id="11bText">
+                    Die eingleisige Eisenbahnlinie Bielefeld - Paderborn
+                </label>
+            </div>
+            <div class="form-check" id="11c">
+                <input class="form-check-input" type="radio" name="gruppe11" id="11cRadio">
+                <label class="form-check-label" for="11cRadio" id="11cText">
+                    Die Grenze der ED-R 112A
+                </label>
+            </div>
+            <div class="form-check" id="11d">
+                <input class="form-check-input" type="radio" name="gruppe11" id="11dRadio">
+                <label class="form-check-label" for="11dRadio" id="11dText">
+                    Die quer zur Flugrichtung verlaufende Landebahn des Flugplatzes Oerlinghausen
+                </label>
+            </div>
+        </div>
+
+        <div id="12">
+            <label id="12Frage">12 Was ist für den Flug nach Bielefeld zu beachten?</label>
+            <div class="form-check" id="12a">
+                <input class="form-check-input" type="radio" name="gruppe12" id="12aRadio">
+                <label class="form-check-label" for="12aRadio" id="12aText">
+                    Am Flugplatz Bielefeld herrscht Segelflugverkehr
+                </label>
+            </div>
+            <div class="form-check" id="12b">
+                <input class="form-check-input" type="radio" name="gruppe12" id="12bRadio">
+                <label class="form-check-label" for="12bRadio" id="12bText">
+                    Der Flugplatz besitzt nur eine Graspiste, Sie müssen bei der Landung mit Unebenheiten rechnen
+                </label>
+            </div>
+            <div class="form-check" id="12c">
+                <input class="form-check-input" type="radio" name="gruppe12" id="12cRadio">
+                <label class="form-check-label" for="12cRadio" id="12cText">
+                    Wegen der Nähe zum Luftraum D CTR von Gütersloh müssen Sie sich bereits direkt nach dem Start in
+                    Melle-Gronegau bei Bielefeld-INFO melden
+                </label>
+            </div>
+            <div class="form-check" id="12d">
+                <input class="form-check-input" type="radio" name="gruppe12" id="12dRadio">
+                <label class="form-check-label" for="12dRadio" id="12dText">
+                    Die starke Variation beim Überfliegen des Teutoburger Waldes
+                </label>
+            </div>
+        </div>
+
+        <div id="13">
+            <label id="13Frage">13 TC und WCA auf dem Streckenabschnitt von Melle-Grönegau nach Bielefeld
+                betragen:</label>
+            <div class="form-check" id="13a">
+                <input class="form-check-input" type="radio" name="gruppe13" id="13aRadio">
+                <label class="form-check-label" for="13aRadio" id="13aText">
+                    155° / +13°
+                </label>
+            </div>
+            <div class="form-check" id="13b">
+                <input class="form-check-input" type="radio" name="gruppe13" id="13bRadio">
+                <label class="form-check-label" for="13bRadio" id="13bText">
+                    155° / -13°
+                </label>
+            </div>
+            <div class="form-check" id="13c">
+                <input class="form-check-input" type="radio" name="gruppe13" id="13cRadio">
+                <label class="form-check-label" for="13cRadio" id="13cText">
+                    010° / +04°
+                </label>
+            </div>
+            <div class="form-check" id="13d">
+                <input class="form-check-input" type="radio" name="gruppe13" id="13dRadio">
+                <label class="form-check-label" for="13dRadio" id="13dText">
+                    177° / -08°
+                </label>
+            </div>
+        </div>
+
+        <div id="14">
+            <label id="14Frage">14 Das CH auf dem Streckenabschnitt von MelIe-Grönegau nach Bielefeld beträgt:</label>
+            <div class="form-check" id="14a">
+                <input class="form-check-input" type="radio" name="gruppe14" id="14aRadio">
+                <label class="form-check-label" for="14aRadio" id="14aText">
+                    175°
+                </label>
+            </div>
+            <div class="form-check" id="14b">
+                <input class="form-check-input" type="radio" name="gruppe14" id="14bRadio">
+                <label class="form-check-label" for="14bRadio" id="14bText">
+                    168°
+                </label>
+            </div>
+            <div class="form-check" id="14c">
+                <input class="form-check-input" type="radio" name="gruppe14" id="14cRadio">
+                <label class="form-check-label" for="14cRadio" id="14cText">
+                    010°
+                </label>
+            </div>
+            <div class="form-check" id="14d">
+                <input class="form-check-input" type="radio" name="gruppe14" id="14dRadio">
+                <label class="form-check-label" for="14dRadio" id="14dText">
+                    015°
+                </label>
+            </div>
+        </div>
+
+        <div id="15">
+            <label id="15Frage">15 Sie befinden sich auf dem Streckenabschnitt von Bielefeld nach Höxter-Holzminden
+                Worauf müssen Sie im Bereich des Sonderlandeplatzes Oerlinghausen achten?</label>
+            <div class="form-check" id="15a">
+                <input class="form-check-input" type="radio" name="gruppe15" id="15aRadio">
+                <label class="form-check-label" for="15aRadio" id="15aText">
+                    Überfluge des Landeplatzes sind möglichst zu vermeiden. März - Oktober starker Segelflug-Betrieb
+                </label>
+            </div>
+            <div class="form-check" id="15b">
+                <input class="form-check-input" type="radio" name="gruppe15" id="15bRadio">
+                <label class="form-check-label" for="15bRadio" id="15bText">
+                    Es ist verstärkt mit militärischen Tiefstflügen zu rechnen
+                </label>
+            </div>
+            <div class="form-check" id="15c">
+                <input class="form-check-input" type="radio" name="gruppe15" id="15cRadio">
+                <label class="form-check-label" for="15cRadio" id="15cText">
+                    Fallschirmsprungbetrieb (März - Oktober)
+                </label>
+            </div>
+            <div class="form-check" id="15d">
+                <input class="form-check-input" type="radio" name="gruppe15" id="15dRadio">
+                <label class="form-check-label" for="15dRadio" id="15dText">
+                    Die maximal zulässige Flughöhe beträgt in diesem Bereich 1700 ft AGL
+                </label>
+            </div>
+        </div>
+
+        <div id="16">
+            <label id="16Frage">16 Im weiteren Verlauf Ihres Fluges von Bielefeld nach Höxter-Holzminden liegt südlich
+                Ihres Kurses das Flugbeschränkungsgebiet ED - R 112A. Dürfen Sie dieses Gebiet durchfliegen?</label>
+            <div class="form-check" id="16a">
+                <input class="form-check-input" type="radio" name="gruppe16" id="16aRadio">
+                <label class="form-check-label" for="16aRadio" id="16aText">
+                    Für den Durchflug ist eine Genehmigung notwendig
+                </label>
+            </div>
+            <div class="form-check" id="16b">
+                <input class="form-check-input" type="radio" name="gruppe16" id="16bRadio">
+                <label class="form-check-label" for="16bRadio" id="16bText">
+                    Die ED - R 1 12A ist donnerstags nicht aktiv und kann ohne Genehmigung durchflogen werden
+                </label>
+            </div>
+            <div class="form-check" id="16c">
+                <input class="form-check-input" type="radio" name="gruppe16" id="16cRadio">
+                <label class="form-check-label" for="16cRadio" id="16cText">
+                    Eine Genehmigung zum Durchflug ist nicht notwendig, wenn das Luftfahrzeug ein offizielles
+                    Eintragungszeichen besitzt
+                </label>
+            </div>
+            <div class="form-check" id="16d">
+                <input class="form-check-input" type="radio" name="gruppe16" id="16dRadio">
+                <label class="form-check-label" for="16dRadio" id="16dText">
+                    Eine Genehmigung zum Durchflug ist nicht notwendig, wenn GPS und Transponder eingeschaltet sind
+                </label>
+            </div>
+        </div>
+
+        <div id="17">
+            <label id="17Frage">17 Das CH auf dem Streckenabschnitt von Bielefeld nach Höxter-Holzminden
+                beträgt:</label>
+            <div class="form-check" id="17a">
+                <input class="form-check-input" type="radio" name="gruppe17" id="17aRadio">
+                <label class="form-check-label" for="17aRadio" id="17aText">
+                    124°
+                </label>
+            </div>
+            <div class="form-check" id="17b">
+                <input class="form-check-input" type="radio" name="gruppe17" id="17bRadio">
+                <label class="form-check-label" for="17bRadio" id="17bText">
+                    094°
+                </label>
+            </div>
+            <div class="form-check" id="17c">
+                <input class="form-check-input" type="radio" name="gruppe17" id="17cRadio">
+                <label class="form-check-label" for="17cRadio" id="17cText">
+                    117°
+                </label>
+            </div>
+            <div class="form-check" id="17d">
+                <input class="form-check-input" type="radio" name="gruppe17" id="17dRadio">
+                <label class="form-check-label" for="17dRadio" id="17dText">
+                    101°
+                </label>
+            </div>
+        </div>
+
+        <div id="18">
+            <label id="18Frage">18 Sie befinden sich auf der ersten Hälfte des Streckenabschnittes von Bielefeld nach
+                Höxter-Holzminden. Welche Bedeutung hat das Gebiet mit der Kennzeichnung ED - R 203 (TRA)?</label>
+            <div class="form-check" id="18a">
+                <input class="form-check-input" type="radio" name="gruppe18" id="18aRadio">
+                <label class="form-check-label" for="18aRadio" id="18aText">
+                    Es handelt sich um ein Gebiet mit Flugbeschränkungen (zeitweilig reservierter Luftraum)
+                </label>
+            </div>
+            <div class="form-check" id="18b">
+                <input class="form-check-input" type="radio" name="gruppe18" id="18bRadio">
+                <label class="form-check-label" for="18bRadio" id="18bText">
+                    Es handelt sich um ein Gebiet mit der Pflicht zur Transponderschaltung
+                </label>
+            </div>
+            <div class="form-check" id="18c">
+                <input class="form-check-input" type="radio" name="gruppe18" id="18cRadio">
+                <label class="form-check-label" for="18cRadio" id="18cText">
+                    Es handelt sich um ein Gefahrengebiet
+                </label>
+            </div>
+            <div class="form-check" id="18d">
+                <input class="form-check-input" type="radio" name="gruppe18" id="18dRadio">
+                <label class="form-check-label" for="18dRadio" id="18dText">
+                    Dieses Gebiet hat für den zivilen Luftverkehr keine Bedeutung, nur militärische Fluge sind hier
+                    Beschränkungen unterworfen
+                </label>
+            </div>
+        </div>
+
+        <div id="19">
+            <label id="19Frage">19 Was ist beim Anflug auf den Verkehrslandeplatz Höxter-Holzminden besonders zu
+                beachten?</label>
+            <div class="form-check" id="19a">
+                <input class="form-check-input" type="radio" name="gruppe19" id="19aRadio">
+                <label class="form-check-label" for="19aRadio" id="19aText">
+                    Motorgetriebene LFZ dürfen nicht landen, wenn die gelben Warnblinkleuchten in Betrieb sind.
+                </label>
+            </div>
+            <div class="form-check" id="19b">
+                <input class="form-check-input" type="radio" name="gruppe19" id="19bRadio">
+                <label class="form-check-label" for="19bRadio" id="19bText">
+                    Besonders donnerstags ist vermehrt mit Tiefflügen militärischer Strahlflugzeuge zu rechnen
+                </label>
+            </div>
+            <div class="form-check" id="19c">
+                <input class="form-check-input" type="radio" name="gruppe19" id="19cRadio">
+                <label class="form-check-label" for="19cRadio" id="19cText">
+                    Es handelt sich um einen Verkehrslandeplatz, daher ist mit besonders starken Wirbelschleppen zu
+                    rechnen
+                </label>
+            </div>
+            <div class="form-check" id="19d">
+                <input class="form-check-input" type="radio" name="gruppe19" id="19dRadio">
+                <label class="form-check-label" for="19dRadio" id="19dText">
+                    Durch das befeuerte Luftfahrthindernis nordwestlich des Flugplatzes ist mit Turbulenzen zu rechnen
+                </label>
+            </div>
+        </div>
+
+        <div id="20">
+            <label id="20Frage">20 Sie befinden sich auf dem Streckenabschnitt von Bielefeld nach Höxter-Holzminden. Ist
+                es möglich, in Höxter-Holzminden funknavigatorische Unterstützung zu erhalten? Wenn ja, woran erkennen
+                Sie das?</label>
+            <div class="form-check" id="20a">
+                <input class="form-check-input" type="radio" name="gruppe20" id="20aRadio">
+                <label class="form-check-label" for="20aRadio" id="20aText">
+                    Die Ausgabe von QDM-Werten ist möglich, erkennbar an der unterstrichenen Frequenzangabe auf der
+                    ICAO-Karte
+                </label>
+            </div>
+            <div class="form-check" id="20b">
+                <input class="form-check-input" type="radio" name="gruppe20" id="20bRadio">
+                <label class="form-check-label" for="20bRadio" id="20bText">
+                    Es ist keine funknavigatorische Unterstützung möglich
+                </label>
+            </div>
+            <div class="form-check" id="20c">
+                <input class="form-check-input" type="radio" name="gruppe20" id="20cRadio">
+                <label class="form-check-label" for="20cRadio" id="20cText">
+                    Die Ausgabe von QDM-Werten ist möglich, erkennbar am Stern im Flugplatzsymbol auf der ICAO-Karte
+                </label>
+            </div>
+            <div class="form-check" id="20d">
+                <input class="form-check-input" type="radio" name="gruppe20" id="20dRadio">
+                <label class="form-check-label" for="20dRadio" id="20dText">
+                    Es ist keine funknavigatorische Unterstützung möglich, da der Verkehrslandeplatz Höxter-Holzminden
+                    kein UKW-Drehfunkfeuer besitzt
+                </label>
+            </div>
+        </div>
+
+
+        <br>
+        <button type="button" class="mt-1 btn btn-secondary" id="zurueck" style="width:160px">&lt;&lt; Vorige
+            Frage</button>
+        <button type="button" class="mt-1 btn btn-secondary" id="weiter" style="width:160px">Nächste Frage
+            &gt;&gt;</button>
+        <br>
+        <button type="button" class="mt-1 btn btn-secondary" id="gehezu" style="width:160px">Gehe zu</button>
+        <label id="anzeigeAnzahl">Anzeige</label><br>
+        <button type="button" class="mt-1 btn btn-primary" id="speichern" style="width:160px">Speichere Frage</button>
+        <button type="button" class="mt-1 btn btn-primary" id="gespeichert" style="width:160px">Nur
+            Gespeicherte</button>
+        <br>
+        <button type="button" class="mt-1 btn bg-transparent" id="unsichtbar" style="width:160px"></button>
+        <button type="button" class="mt-1 btn btn-primary" id="loeschen" style="width:160px">Alle Gesp. löschen</button>
+    </div>
+
+    <script src="js/meineDatei.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.4.0/bootbox.min.js"></script>
+</body>
+
+</html>
