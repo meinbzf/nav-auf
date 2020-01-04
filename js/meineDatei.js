@@ -211,3 +211,10 @@ function loescheListe() {
         }
     });
 }
+
+let myBtnOpenPdf = document.getElementById("openPdf");
+myBtnOpenPdf.addEventListener("click", openPdf);
+function openPdf() {
+    //alert ("Hi");
+    window.open("images/NavaufgabeAnlagen.pdf", "Anlage Navigationsaufgabe");
+}
